@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* ranging */
+body,
+h1,h2,h3,h4,h5,h6,
+hr,
+p,
+blockquote,
+dl,dt,dd,
+ul,ol,li,
+pre,
+form,fieldset,legend,button,input,textarea,
+th,td,
+div {
+	margin: 0;
+	padding: 0;
+	color:#525252;
+}
+img{ border:0}
+body,
+h1,h2,h3,h4,h5,h6,
+hr,
+p,
+blockquote,
+dl,dt,dd,
+ul,ol,li,
+pre,
+form,fieldset,legend,button,input,textarea,
+th,td,
+div {
+	margin: 0;
+	padding: 0;
+	color:#525252;
+}
+
+/* set font */
+body,
+div,
+button,input,select,textarea { font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; }
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	vertical-align: baseline;
+	zoom: 1;
+}
+
+address,cite,dfn,em,var { font-style: normal; }
+
+code,kbd,pre,samp { font-family: courier new, courier, monospace; }
+
+small { font-size: 12px; }
+
+ul,ol,li {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+a { color:#525252; text-decoration: none; }
+
+a:hover { color: #666; text-decoration: underline; }
+
+a:focus {
+	outline-style: none;
+	outline-width: 0;
+}
+
+body{ background:#dcdcdc url(../img/bg_body.gif) repeat-x}
+
+
+#header{ overflow:hidden; position:relative;}
+#header #logo{ float:left;font-size: 32px;color: #333;}
+#header #logo a{ background:url(http://www.zhjicheng.com/uploads/allimg/180329/1_0840392321.png) no-repeat; width:477px; display:block; height:84px; text-indent:-9999em;}
+#header .hd_area{ width:1200px; margin:0 auto;padding:20px 0; overflow:hidden;zoom:1}
+#header .top_ct{width:1200px; margin:0 auto;}
+#header .top_ct h1{ line-height:28px;float:left}
+#header .top_ct .mini_nav{ float:right}
+#header .top_ct .mini_nav li{ float:left; line-height:28px;}
+#header .top_ct .mini_nav li a{ display:block;padding:0 5px}
+#header .top_ct .mini_nav li a:hover{ background:#e2e2e2; text-decoration:none}
+#header #search{ float:right; margin-top:26px}
+#header #search .form{border:1px solid #d7d4cf; background:#fff; width:400px; overflow:hidden; margin-bottom:5px}
+#header #search .input_txt{ font-size:12px; border:0; width:330px; background:#fff;float:left;  height:25px; line-height:25px; padding:5px}
+#header #search .btn_search{ cursor:pointer; width:60px; height:35px; background:#0c70bc; color:#fff; font-weight:bold; font-size:14px; float:right; text-align:center; line-height:35px;border:0}
+#header #search .btn_search:hover{ background:#FF6600}
+#header #search .tag{ overflow:hidden; zoom:1}
+#header #search .tag h2{ float:left; margin-right:5px;}
+#header #search .tag ul li{ float:left; margin-right:6px}
+#header #search .tag ul li a{ text-decoration:underline}
+
+.top_nav{ height:28px; background:#f0eeee; border-bottom:1px solid #d7d4cf}
+#header .menu{ height:48px; background:url(../img/bg_menu.gif) repeat-x; margin-bottom:10px}
+#header .menu .menu_list{ width:1200px; margin:0 auto}
+#header .menu .menu_list li{ float:left; line-height:48px;}
+#header .menu .menu_list li.on a,#header .menu .menu_list li a:hover{ background:url(../img/dot2.gif) repeat-x 0 100%; color:#004e89; text-decoration:none;}
+#header .menu .menu_list li a{ float:left; padding:0 15px; font-size:14px; font-weight:bold; color:#666; text-shadow:1px 1px 0 #fff; font-size:14px;}
+#header .menu .tel{position:absolute; right:10px; top:12px;color:#fff;font-family:"微软雅黑"; font-size:14px;}
+
+
+
+#cotnent{ margin-bottom:5px; overflow:hidden}
+#cotnent .banner_box{ text-align:center; width:1200px; height:234px; overflow:hidden;margin:0 auto 10px;background:url(../img/bg_banner.gif) repeat-x; box-shadow:1px 2px 5px #ccc; position:relative; z-index:2}
+#cotnent .banner_box .thumbs{ position:absolute; top:208px; right:20px; overflow:hidden;zoom:1}
+#cotnent .banner_box .thumbs ol li{ float:left; width:35px;height:12px;text-indent:-999em;background:#D3D3D3; color:#fff; cursor:pointer; margin:0 2px}
+#cotnent .banner_box .thumbs ol li.hover{background:#EF7F11}
+
+#cotnent .main{ width:1200px; margin:0 auto}
+.ct_area{ overflow:hidden;zoom:1; margin-bottom:10px}
+.ct_area .mbox{float:left; zoom:1; display:inline; width:391px; margin-right:10px; border:1px solid #d8d7d7; background:#fff url(../img/bg_mbox.gif) repeat-x 0 100%}
+.ct_area .mbox .tit{ overflow:hidden;zoom:1; padding:6px 10px; height:28px; line-height:28px; background:#004e89}
+.ct_area .mbox .tit2{background:#63a002}
+.ct_area .mbox .tit3{background:#ff6000}
+.ct_area .mbox .tit h2{ float:left; color:#fff;font-family:"微软雅黑";text-shadow:0 1px 2px #000; font-size:18px}
+.ct_area .mbox .tit .more{ float:right}
+.ct_area .mbox .tit .more a{ color:#fff}
+.ct_area .mbox .cont{ padding:10px;}
+.ct_area .mbox .cont .list li{ line-height:22px; background:url(../img/dot.gif) no-repeat 0 50%; padding-left:12px; border-bottom:1px dashed #e2e2e2}
+
+.ct_area .mr0{ margin-right:0}
+.product{ background:#fff url(../img/bg_mbox.gif) repeat-x 0 100%;border:1px solid #d8d7d7; overflow:hidden;zoom:1}
+.product .tit{ overflow:hidden;zoom:1; padding:6px 10px; height:28px; line-height:28px; background:#eae9e9;font-family:"微软雅黑";}
+.product .tit h2{ float:left;text-shadow:0 1px 2px #ccc; font-size:18px}
+.product .tit .more{ float:right}
+.product .list{ padding:10px 10px 10px 18px; overflow:hidden;zoom:1}
+.product .list li{ float:left; display:inline; margin-right:13px;zoom:1}
+.product .list li a{ border:1px solid #e2e2e2; display:block}
+.product .list li a span{ display:block; background:#eae9e9; text-align:center; height:22px; *width:180px; line-height:22px}
+.product .list li a:hover span{background:#004e89; color:#fff; text-decoration:none}
+.product .list li a:hover{text-decoration:none; border:1px solid #004e89}
+
+
+#footer{background:#efefef; border-top:4px solid #c7c7c7; padding:30px 0;}
+#footer p{ text-align:center; color:#666; line-height:25px}
+#footer p a{ color:#333}
+
+/* test */
+.art{background:#fff url(../img/bg_body.gif) repeat-x}
+
+
+
+#content{ overflow:hidden; width:1200px; margin:0 auto 10px}
+#content .aside{ width:210px; float:right;}
+#content .aside .mbox{ margin-bottom:10px}
+#content .aside .mbox .tit{ overflow:hidden; zoom:1; background:#f7f7f7; border-bottom:1px solid #e1e1e1; height:38px; line-height:38px}
+#content .aside .mbox .tit h2{ font-family:"微软雅黑"; font-size:14px; color:#808080; padding-left:15px}
+#content .aside .mbox .cont{ background:#f2f2f2; padding:5px;}
+#content .aside .mbox .cont .list li{ border-bottom:1px dashed #dddddd; line-height:28px; height:28px;background:url(../img/dot.gif) no-repeat 0 50%; padding-left:12px;}
+
+
+
+#content .sub{ width:200px; float:left}
+#content .sub .sub_list{ border-bottom:1px solid #ccc9c9; border-top:1px solid #ccc9c9}
+#content .sub .sub_list li{ border-bottom:1px solid #e2e2e2; height:32px; line-height:32px;zoom:1}
+#content .sub .sub_list li.last{ border-bottom:0}
+#content .sub .sub_list li a{ display:block; zoom:1; padding-left:14px;font-size:14px}
+#content .sub .sub_list li a:hover{ background:#f0f0f0;}
+
+#content .main{ width:768px; float:left; margin:0 10px; overflow:hidden}
+#content .main .product_list{ overflow:hidden; padding:10px 0 0 10px}
+#content .main .product_list li{ float:left; display:inline;zoom:1; margin:0 16px 16px 0}
+#content .main .product_list li a{ border:1px solid #e2e2e2; display:block}
+#content .main .product_list li a span{ display:block; background:#eae9e9; text-align:center; height:22px; *width:170px; line-height:22px}
+#content .main .product_list li a:hover span{background:#004e89; color:#fff; text-decoration:none}
+#content .main .product_list li a:hover{text-decoration:none; border:1px solid #004e89}
+
+
+
+.page_location{ padding:6px; background:#fff;margin:10px 0}
+.main_ct{ background:#fff;padding:5px 10px}
+.main_ct h2{ font-family:"微软雅黑"; font-size:18px; text-align:center; margin-bottom:20px}
+
+
+.time_h h2{ border-bottom:4px solid #f0f0f0; font-size:18px; padding-bottom:10px; font-family:"微软雅黑"}
+.art_list li{ border-bottom:1px solid #f1f1f1; padding:15px 0; overflow:hidden;zoom:1}
+.art_list li h3{ font-size:14px; line-height:22px; margin-bottom:8px; color:#666}
+.art_list li p{line-height:22px; line-height:22px;color:#666}
+
+.art_list li dl dt{ float:left;}
+.art_list li dl dt img{ width:200px; height:160px; padding:2px; border:1px solid #e2e2e2; margin-right:10px}
+.art_list li dl dt img:hover{ border:1px solid #999999}
+
+
+.art_list li dl dd{margin-left:200px; overflow:hidden}
+
+
+.about_ct h2{border-bottom:4px solid #f0f0f0; font-size:18px; padding-bottom:10px; font-family:"微软雅黑"; margin-bottom:15px}
+.info_area p{ margin-bottom:15px; font-size:14px; line-height:25px; color:#666; text-align:justify}
+
+.info_area strong{ font-size:14px; margin-bottom:16px; display:block}
+
+.info_area ul{ list-style-type:disc; padding-left:10px}
+.info_area ul li{ list-style-type:disc; color:#000; line-height:25px; font-size:14px; color:#666}
+
+
+
+
+.info_area table{ width:520px; margin:0 auto}
+.pagelist{ text-align:center; padding-top:15px}
+.pagelist li{ float:left; height:19px; line-height:19px; border:1px solid #ccc; margin:0 5px}
+.pagelist li.thisclass{ background:#F7F7F7; padding:0 5px}
+.pagelist li span.pageinfo{padding:0 5px}
+.pagelist li a{display:block;padding:0 5px;}
+.pagelist li a:hover{ background:#F7F7F7; text-decoration:none}
+
+.info_area2 table{ width:100%; border:1px solid #ccc; margin:15px 0;border-collapse:collapse; display:table}
+.info_area2 table td{ padding:5px;border:1px solid #ccc; color:#000;word-break:break-all;word-wrap:break-word}
+.info_area2 table td p{ margin-bottom:0}
+
+
+.info_area2 table td.c{}
+.info_area2 p img{padding:2px; display:inline-block;padding:2px}
+.info_area2 strong{ color:#000; padding:6px 0}
+.info_area2 p,.info_area2 div,.info_area2 span{ color:#000; line-height:22px; color:#000; margin-bottom:20px}
+.info_area2 ul{ list-style-type:disc; padding-left:10px}
+.info_area2 ul li{ list-style-type:disc; color:#000; line-height:25px;}
